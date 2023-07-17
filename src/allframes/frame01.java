@@ -312,7 +312,7 @@ public class frame01 extends javax.swing.JFrame {
         passwordField.setEchoChar((char)0);
         }
         else{
-        //passwordField.setEchoChar();
+        passwordField.setEchoChar('*');
         }
     }//GEN-LAST:event_checkBoxActionPerformed
 
